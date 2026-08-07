@@ -1,9 +1,9 @@
 """
 天翼量子AI云电脑 - 青龙面板自动登录脚本（浏览器版本）
-平台: https://pc.ctyun.cn/#/login
+"" "" ""
 
 使用说明:
-  1. 推送模块: 支持 rnl_push.py / notify.py（与 WPS 签到脚本一致）
+  1. 推送模块: 支持 rnl_push.py / notify.py
      也可自动调用青龙 sendNotify.js（三重兜底）
   2. 设置环境变量: TYLZ_AIYDN（多账号支持）
   3. 定时规则: */30 * * * *  （30分钟执行一次）
@@ -24,14 +24,14 @@
   False = 关闭推送
 
 
-"""
+"" "" ""
 
 # ==================================================
 # 自动安装依赖（首次运行或缺失时自动安装）
 # ==================================================
-import sys
-import subprocess
-import importlib.util
+导入 sys
+导入子进程
+导入导入导入库.工具
 
 
 def ensure_playwright():
